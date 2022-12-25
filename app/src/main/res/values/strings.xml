@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">sadra_afzar</string>
+    <string name="btn_login">ورود</string>
+    <string name="btn_profile">ثبت</string>
+    <string name="txt_main">نام اپلیکیشن</string>
+    <string name="edt_text_enterMobile">لطفا تلفن همراه خود را وارد کنید</string>
+    <string name="edt_text_enterName">لطفا نام خود را وارد کنید</string>
+    <string name="edt_text_enterLastname">لطفا نام خانوادگی خود را وارد کنید</string>
+    <string name="txtInfo2">سامانه استعلام بهای مصالح ساختمانی</string>
+
+    <string name="txtNumHint">تلفن همراه...</string>
+    <string name="edt_text_enterCode">کد احراز هویت را وارد کنید </string>
+    <string name="btnLogin">ارسال</string>
+
+    <string name="wait">لطفا صبر کنید</string>
+
+    <string name="title_activity_verification">VerificationActivity</string>
+
+    <string name="title_activity_user_info">UserInfoActivity</string>
+
+    <string name="NoInternetConnectionTitle">ارتباط برقرار نیست</string>
+
+    <string name="NoInternetConnectionBody">به نظر می رسد ارتباط اینترنت و وای فای شما قطع است.لطفا عوض کنید و دوبارهامتحان کنید. </string>
+
+    <string name="ErrorBadGateway">در ثبت اطلاعات مشکل وجود دارد</string>
+
+    <string name="ErrorNotFound">آدرس مورد نظر یافت نشد</string>
+
+    <string name="ErrorNoSendSMS">در ارسال پیام کوتاه مشکل وجود دارد</string>
+
+    <string name="title_activity_communication_error">CommunicationErrorActivity</string>
+
+    <string name="ErrorSend">ارسال</string>
+
+    <string name="MessageErrorSend">خطا!\n آیا خطای ایجاد شده جهت بهبود اپلیکیشن به سرور ارسال گردد؟</string>
+
+    <string name="ErrorNoSend">لغو</string>
+
+    <string name="ErrorServer">ارتباط با سرور دچار مشکل شد</string>
+
+    <string name="txtNumVerificationHint">کد تایید...</string>
+
+    <string name="btnVerificationCode">ثبت کد</string>
+
+    <string name="lblVerificationCode">درخواست مجدد کد تایید</string>
+
+    <string name="NoValidPublicKey">خطای اعتبار سنجی !!! لطفا دوباره ثبت نام کنید.</string>
+
+    <string name="NoValidVerificationCode">کد تایید صحیح نمی باشد.</string>
+
+    <string name="SendSMSDelay">ارسال پیام کوتاه حداکثر 10 دقیقه زمان می برد \n از بردباری و شکیبایی شما متشکریم</string>
+
+    <string name="txtFirstNameHint">نام</string>
+
+    <string name="txtLastNameHint">نام خانوادگی</string>
+
+    <string name="btnRegisterInfo">ثبت</string>
+
+    <string name="ErrorFirstName">لطفا نام را وارد کنید</string>
+
+    <string name="ErrorLastName">لطفا نام خانوادگی وارد کنید</string>
+
+    <string name="rbBuyer">خریدار</string>
+
+    <string name="rbProvider">تامین کننده</string>
+
+    <string name="txtAddress">آدرس</string>
+
+    <string name="Product_Group_Hint">گروه</string>
+
+    <string name="ProductRequest_Comment_Hint">شرح درخواست</string>
+
+    <string name="ProductRequest_Address_Hint">آدرس</string>
+
+    <string name="ErrorProductRequest_Comment">لطفا شرح درخواست را وارد کنید</string>
+
+    <string name="ErrorProductRequest_Address">لطفا ادرس را وارد کنید</string>
+
+    <string name="IsOffer">باتوجه به ثبت پیشنهاد قابلیت ویرایش وجود ندارد.</string>
+
+    <string name="btnRegisterOffer">ثبت پیشنهاد</string>
+
+    <string name="btnListOffer">پیشنهادها</string>
+
+    <string name="btnProductSend">ارسال محصول</string>
+
+    <string name="lblProductRequestCreateDate">تاریخ:</string>
+
+    <string name="lblProductRequestComment">شرح:</string>
+
+    <string name="lblProductRequestAddress">آدرس:</string>
+
+    <string name="txtPrice">قیمت</string>
+
+    <string name="txtShip">هزینه حمل</string>
+
+    <string name="btnOfferPrice">ثبت</string>
+
+    <string name="txtOfferPriceComment">توضیحات</string>
+
+    <string name="ErrorPrice">لطفا قیمت وارد کنید.</string>
+    <string name="Errormobile">لطفا شماره همراه خود را صحیح وارد کنید.</string>
+    <string name="ErrorCode">کد وارد شده صحیح نیست.</string>
+
+    <string name="NotAllowUpdate">به دلیل اینکه پیشنهاد شما تایید شده هست قابلیت ویرایش ندارد.</string>
+
+    <string name="NoApprove">فقط یک پیشنهاد تایید می شود.</string>
+    <string name="trysend">ارسال مجدد...</string>
+    <string name="txt_search"> جستجو...</string>
+    <string name="NoReject">بدلیل ارسال قابلیت لغو ندارد.</string>
+    <string name="ErrorNetwork">خطا در برقراری ارتباط</string>
+    <string name="ErrorParseJson">خطا در ثبت اطلاعات</string>
+    <string name="NewVersionForce">نسخه جدید نرم افزار در دسترس است</string>
+    <string name="NewVersionNoForce">"نسخه شما منسوخ شده است لطفا عر چه سریع تر اقدام به اپدیت نسخه اپلیکیشن خود نمایید "</string>
+</resources>

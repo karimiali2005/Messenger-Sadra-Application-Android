@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/shape_login_rectangel"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/relativeLayout">
+
+
+       <com.Sadraafzar.Messenger.Image.RoundedImageView
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:layout_marginTop="@dimen/txt_size_10"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/shape_circel_2"
+           android:id="@+id/img_user">
+
+       </com.Sadraafzar.Messenger.Image.RoundedImageView>
+
+<TextView
+    android:id="@+id/txt_user"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_selector"
+    android:textSize="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_below="@+id/img_user"
+    android:layout_centerHorizontal="true"
+    android:text="ssaasasasas"></TextView>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

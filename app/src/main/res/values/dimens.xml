@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_btn">50dp</dimen>
+    <dimen name="height_edt">50dp</dimen>
+    <dimen name="margin_l_R">30dp</dimen>
+    <dimen name="btn_text_size">20dp</dimen>
+    <dimen name="txt_size_10">15dp</dimen>
+    <dimen name="txt_size_20">20dp</dimen>
+    <dimen name="txt_size_30">30dp</dimen>
+    <dimen name="txt_size_40">40dp</dimen>
+    <dimen name="txt_size_50">50dp</dimen>
+
+</resources>

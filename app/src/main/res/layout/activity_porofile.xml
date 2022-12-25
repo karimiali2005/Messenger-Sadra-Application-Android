@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:fillViewport="true"
+    tools:context=".Porofile">
+    <RelativeLayout
+        android:background="@color/backgerund"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <RelativeLayout
+                android:id="@+id/rel_profile_one"
+                android:background="@drawable/shape_login_rectangel"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                >
+                <RelativeLayout
+                    android:id="@+id/rel_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="152dp"
+                    android:layout_height="152dp"
+                    android:background="@drawable/shape_circel">
+                    <com.Sadraafzar.Messenger.Image.RoundedImageView
+                        android:id="@+id/img_profile"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                       android:layout_margin="10dp"
+                    android:src="@drawable/icuser2"
+
+                        >
+
+                    </com.Sadraafzar.Messenger.Image.RoundedImageView>
+                    <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape_circel_2">
+                        <ImageView
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_camera">
+
+                        </ImageView>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+
+                android:layout_marginTop="-50dp"
+                android:translationZ="2dp"
+                android:layout_marginLeft="@dimen/margin_l_R"
+                android:layout_marginRight="@dimen/margin_l_R"
+                android:background="@drawable/shape_corner_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_profile_one">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:paddingRight="@dimen/margin_l_R"
+                        android:id="@+id/txtinput_profile_name"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content">
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:translationZ="2dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_user"></ImageView>
+                        <EditText
+                            android:textSize="@dimen/txt_size_10"
+                            android:textColor="@color/txt_select"
+                            android:textColorHint="@color/txt_unselect"
+                            android:singleLine="true"
+                            android:inputType="text"
+                            android:id="@+id/edt_profile_name"
+                            android:hint="@string/edt_text_enterName"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_edt"
+                            android:layout_marginRight="@dimen/margin_l_R"
+                            android:layout_marginLeft="@dimen/margin_l_R"></EditText>
+                    </RelativeLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:paddingRight="@dimen/margin_l_R"
+                        android:id="@+id/txtinput_porofile_lastname"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content">
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:translationZ="2dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_user"></ImageView>
+                        <EditText
+                            android:textSize="@dimen/txt_size_10"
+                            android:textColor="@color/txt_select"
+                            android:textColorHint="@color/txt_unselect"
+                            android:singleLine="true"
+                            android:inputType="text"
+                            android:id="@+id/edt_profile_lastname"
+                            android:hint="@string/edt_text_enterLastname"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/height_edt"
+                            android:layout_marginRight="@dimen/margin_l_R"
+                            android:layout_marginLeft="@dimen/margin_l_R"></EditText>
+                    </RelativeLayout>
+                    <Button
+                        android:textColor="@color/btn_text"
+                        android:id="@+id/btn_profile_enter"
+                        android:textSize="@dimen/btn_text_size"
+                        android:layout_margin="@dimen/margin_l_R"
+                        android:text="@string/btn_profile"
+                        android:background="@drawable/btn_selector"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_btn"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

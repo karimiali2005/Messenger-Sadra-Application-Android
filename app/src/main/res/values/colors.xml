@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgerund">#2e3a4a</color>
+    <color name="black">#000000</color>
+    <color name="subblack">#515050</color>
+    <color name="iconcolor">#2b8384</color>
+    <color name="whait">#FFFFFF</color>
+    <!--btn_selector-->
+    <color name="selected">#a8cf45</color>
+    <color name="unselected">#ff8cae3b</color>
+    <!--End_btn_selector-->
+    <color name="btn_text">#20414d</color>
+    <!--txtColor-->
+    <color name="txt_unselect">#627188</color>
+    <color name="txt_select">#2c767c</color>
+    <!--End_txtColor-->
+</resources>

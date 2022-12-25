@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="پروفایل" android:id="@+id/menuitem1" />
+    <!--  <item android:title="تنظیمات" android:id="@+id/menuitem2" />
+      <item android:title="درباره" android:id="@+id/menuitem3" />-->
+    <item android:title="راهنما" android:id="@+id/menuitem4" />
+    <item android:title="ارسال پیشنهاد یا خطا" android:id="@+id/menuitem5" />
+    <item android:title="خروج" android:id="@+id/menuitem6" />
+</menu>

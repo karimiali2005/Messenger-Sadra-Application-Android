@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "294807399382",
+    "firebase_url": "https://messenger-c489f.firebaseio.com",
+    "project_id": "messenger-c489f",
+    "storage_bucket": "messenger-c489f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294807399382:android:d830bcedaaa24387edd277",
+        "android_client_info": {
+          "package_name": "com.Sadraafzar.Messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294807399382-mt0rtg2003kurs4jdg4fhnk7c6o2ghh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Sadraafzar.Messenger",
+            "certificate_hash": "676080c99a4bb778718957fdba24b8ec44f462c4"
+          }
+        },
+        {
+          "client_id": "294807399382-4b5v51emg156dh6l3jr3209a5qdt6fs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRc65mOZCIMHZ7_tcJQ5t4j1GK_ddVJVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294807399382-4b5v51emg156dh6l3jr3209a5qdt6fs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
